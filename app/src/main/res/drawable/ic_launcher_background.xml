@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background Outer Dark Luxury Slate Radial Base -->
+    <path
+        android:pathData="M0,0 H108 V108 H0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:color="#0B0F19" android:offset="0.0" />
+                <item android:color="#171E2E" android:offset="0.5" />
+                <item android:color="#070A10" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Ambient Glow -->
+    <path
+        android:pathData="M54,16 C74.98,16 92,33.02 92,54 C92,74.98 74.98,92 54,92 C33.02,92 16,74.98 16,54 C16,33.02 33.02,16 54,16 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="16"
+                android:endX="54"
+                android:endY="92"
+                android:type="linear">
+                <item android:color="#1A3B82F6" android:offset="0.0" />
+                <item android:color="#00000000" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Polished Gold Bezel Ring -->
+    <path
+        android:pathData="M54,19 C73.33,19 89,34.67 89,54 C89,73.33 73.33,89 54,89 C34.67,89 19,73.33 19,54 C19,34.67 34.67,19 54,19 Z"
+        android:strokeWidth="2.5">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="19"
+                android:startY="19"
+                android:endX="89"
+                android:endY="89"
+                android:type="linear">
+                <item android:color="#FFFBEB" android:offset="0.0" />
+                <item android:color="#FCD34D" android:offset="0.25" />
+                <item android:color="#F59E0B" android:offset="0.5" />
+                <item android:color="#D97706" android:offset="0.75" />
+                <item android:color="#78350F" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Metallic Rim -->
+    <path
+        android:pathData="M54,23 C71.12,23 85,36.88 85,54 C85,71.12 71.12,85 54,85 C36.88,85 23,71.12 23,54 C23,36.88 36.88,23 54,23 Z"
+        android:strokeWidth="1.0">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="23"
+                android:startY="23"
+                android:endX="85"
+                android:endY="85"
+                android:type="linear">
+                <item android:color="#40FDE68A" android:offset="0.0" />
+                <item android:color="#10F59E0B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>

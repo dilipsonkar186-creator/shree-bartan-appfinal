@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 3D DROP SHADOW GROUP -->
+    <group
+        android:translateX="1.5"
+        android:translateY="2.5">
+        <!-- Shadow for 'S' -->
+        <path
+            android:pathData="M34,43 C34,37 39,33 46,33 C53,33 57,36 57,40 L51,42 C51,39.5 49,38 46,38 C42,38 39.5,40 39.5,42.5 C39.5,45 41.5,46.5 47,48 C54,50 58,53.5 58,60 C58,66.5 52.5,71 45.5,71 C38,71 33,67 33,60 L39,58.5 C39.5,62.5 42,65.5 45.5,65.5 C49.5,65.5 52.5,63 52.5,60 C52.5,57 50.5,55.5 44.5,53.5 C38,51.5 34,48.5 34,43 Z"
+            android:fillColor="#70000000" />
+
+        <!-- Shadow for 'B' -->
+        <path
+            android:pathData="M59,33 L71.5,33 C76,33 79,35.5 79,40 C79,43 77,45.5 74,46.5 C78,47.5 80.5,50.5 80.5,55.5 C80.5,61 76.5,65 71,65 L59,65 Z M64.5,38 L64.5,46 L71,46 C73,46 74,44.5 74,42 C74,39.5 73,38 71,38 Z M64.5,51 L64.5,60 L71.5,60 C74,60 75,58.5 75,55.5 C75,52.5 74,51 71.5,51 Z"
+            android:fillColor="#70000000" />
+    </group>
+
+    <!-- 1. 3D GOLD 'S' (LEFT GLYPH) -->
+    <path
+        android:pathData="M34,43 C34,37 39,33 46,33 C53,33 57,36 57,40 L51,42 C51,39.5 49,38 46,38 C42,38 39.5,40 39.5,42.5 C39.5,45 41.5,46.5 47,48 C54,50 58,53.5 58,60 C58,66.5 52.5,71 45.5,71 C38,71 33,67 33,60 L39,58.5 C39.5,62.5 42,65.5 45.5,65.5 C49.5,65.5 52.5,63 52.5,60 C52.5,57 50.5,55.5 44.5,53.5 C38,51.5 34,48.5 34,43 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="33"
+                android:startY="33"
+                android:endX="58"
+                android:endY="71"
+                android:type="linear">
+                <item android:color="#FFFBEB" android:offset="0.0" />
+                <item android:color="#FDE047" android:offset="0.25" />
+                <item android:color="#F59E0B" android:offset="0.55" />
+                <item android:color="#D97706" android:offset="0.85" />
+                <item android:color="#78350F" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 2. 3D GOLD 'B' (RIGHT GLYPH) -->
+    <path
+        android:pathData="M59,33 L71.5,33 C76,33 79,35.5 79,40 C79,43 77,45.5 74,46.5 C78,47.5 80.5,50.5 80.5,55.5 C80.5,61 76.5,65 71,65 L59,65 Z M64.5,38 L64.5,46 L71,46 C73,46 74,44.5 74,42 C74,39.5 73,38 71,38 Z M64.5,51 L64.5,60 L71.5,60 C74,60 75,58.5 75,55.5 C75,52.5 74,51 71.5,51 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="59"
+                android:startY="33"
+                android:endX="80.5"
+                android:endY="65"
+                android:type="linear">
+                <item android:color="#FFFDF5" android:offset="0.0" />
+                <item android:color="#FEF08A" android:offset="0.25" />
+                <item android:color="#F59E0B" android:offset="0.55" />
+                <item android:color="#B45309" android:offset="0.85" />
+                <item android:color="#78350F" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 3. ROYAL METALLIC CREST / VESSEL CROWN (TOP ACCENT) -->
+    <!-- Center Diamond Crest -->
+    <path
+        android:pathData="M54,23 L58,28 L54,31 L50,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="50"
+                android:startY="23"
+                android:endX="58"
+                android:endY="31"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#FDE047" android:offset="0.5" />
+                <item android:color="#D97706" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Left & Right Royal Arc Flares -->
+    <path
+        android:pathData="M44,28 C46,26.5 50,26 52,27 L51,28.5 C49,27.8 46,28.2 44.5,29.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="26"
+                android:endX="52"
+                android:endY="30"
+                android:type="linear">
+                <item android:color="#FEF08A" android:offset="0.0" />
+                <item android:color="#D97706" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M64,28 C62,26.5 58,26 56,27 L57,28.5 C59,27.8 62,28.2 63.5,29.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="56"
+                android:startY="26"
+                android:endX="64"
+                android:endY="30"
+                android:type="linear">
+                <item android:color="#FEF08A" android:offset="0.0" />
+                <item android:color="#D97706" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 4. BOTTOM POLISHED GOLD DIVIDER BAR -->
+    <path
+        android:pathData="M38,76 L70,76 C71,76 71.5,76.5 71.5,77 C71.5,77.5 71,78 70,78 L38,78 C37,78 36.5,77.5 36.5,77 C36.5,76.5 37,76 38,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36.5"
+                android:startY="76"
+                android:endX="71.5"
+                android:endY="78"
+                android:type="linear">
+                <item android:color="#FEF08A" android:offset="0.0" />
+                <item android:color="#F59E0B" android:offset="0.5" />
+                <item android:color="#D97706" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 5. ULTRA-CRISP SPECULAR HIGHLIGHT REFLECTIONS -->
+    <!-- S Top Curve Shine -->
+    <path
+        android:pathData="M36,41 C37,36 41,34 46,34 C49,34 52,35 54,36.5 L53,38 C51,36.8 48.5,36 46,36 C42,36 38.5,38 38,41 Z"
+        android:fillColor="#90FFFFFF" />
+    <!-- B Top Outer Edge Shine -->
+    <path
+        android:pathData="M60,34 L71,34 C74.5,34 77,35.8 77.5,39 L76,39.5 C75.5,37 73.5,36 71,36 L61.5,36 L61.5,46 L60,46 Z"
+        android:fillColor="#80FFFFFF" />
+    <!-- B Middle Spine Bevel -->
+    <path
+        android:pathData="M64.5,38 L66,38 L66,60 L64.5,60 Z"
+        android:fillColor="#60FFFFFF" />
+
+</vector>
